@@ -1,0 +1,123 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: Arial;
+}
+
+input, select, textarea, button{
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.source{
+	background-color: #eee;
+}
+
+.source>select,{
+	height: 18px;
+	width: 50px;
+}
+
+.source>select:last-child:after{
+	clear: both;
+}
+
+.source>*, .source2>*{
+	margin-left: 5px;
+}
+
+.source2{
+	display: none;
+	background-color: #ccc;
+}
+
+input:focus{
+	background-color: #ffff80;
+	cursor: text;
+}
+
+button:hover{
+	background-color: #ffff80;
+}
+
+.source2 sub{
+	font-size: 0.7em;
+	position: relative;
+	left: -4px;
+}
+
+sub{
+	font-size: 0.7em;
+}
+
+tr.header .head, tr.result .delta{
+	background-color: gray;
+}
+
+table{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+table th, table td{
+	text-align: center;
+}
+
+table{
+	font-family: verdana, arial, sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table th{
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table td{
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+tr:not(:first-child):hover>td{
+	color: #ffcc00;
+	background-color: rgba(102, 102, 102, 0.8);
+}
+
+.objectiveFunction, .answer{
+	text-align: center;
+	background-color: #addfad;
+	font-family: verdana, arial, sans-serif;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.answer{
+	background-color: #fde910;
+}
+
+.guidingRow{
+	background-color: rgba(142, 213, 87, 0.3);
+}
+
+.guidingCol{
+	background-color: rgba(206, 194, 255, 0.3);
+}
+
+td.guidingRow.guidingCol{
+	background-color: rgba(255, 193, 0, 0.3);
+}
